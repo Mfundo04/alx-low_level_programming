@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_sign - prints the sign of s number
- * @n: the int to check
- * Return: 1 is greater thanzero, 0 is zero.
+ * print_sign - to check if the input number
+ * greater, equal or less than zero
+ * @n: The input number is an integer
+ * Return: 1 is greater than zero. 0 is zero
  * -1 is less than zero
  */
 int print_sign(int n)
@@ -17,7 +18,7 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-	esle
+	else
 	{
 		_putchar(48);
 		return (0);
